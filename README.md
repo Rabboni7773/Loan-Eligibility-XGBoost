@@ -24,3 +24,23 @@ loan-pred-app/
 │   ├── success.html           # Approval UI
 │   └── failure.html           # Rejection UI
 └── README.md                  # Project Documentation
+```
+
+## 🐳 Run with Docker
+
+If you have Docker installed, you can skip the manual setup and run the application with a single command. I have pre-built the image and hosted it on Docker Hub.
+
+### 1. Pull the Image
+```bash
+docker pull rabboni7/loan-pred-app:v1
+```
+
+### 2. Run the Container
+```bash
+docker run -d -p 8000:8000 rabboni7/loan-pred-app:v1\
+```
+### 3. Access the App
+Open your browser and go to:
+
+http://127.0.0.1:8000
+
